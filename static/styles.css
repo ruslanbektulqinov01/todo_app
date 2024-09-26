@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.input-group {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form-control {
+    border-right: none;
+}
+
+.input-group-append .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+}
+
+.list-group-item span {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 70%;
+}
+
+.list-group-item:hover {
+    background-color: #e7e7e7;
+}
+
+.list-group-item.completed {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.list-group-item.completed span {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn-outline-success {
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
